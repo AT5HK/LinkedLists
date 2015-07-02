@@ -99,7 +99,7 @@ int main(int argc, const char * argv[]) {
     add(n1,nodePointer(4, NULL));
     printNode(n1);
     
-    //on second printNode n1 has different number in address. ask about it tomorrow.
+    
     //!! Memory at address was marked as free but pointer is still accessible may or may not caus crash. But is essential considered deleted!.
     
     return 0;
